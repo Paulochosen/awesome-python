@@ -1,1 +1,4 @@
-pip install opencv-python mediapipe pygame numpy
+if 200 < x < 300 and 150 < y < 250:
+    cv2.putText(img, "BOTAO ATIVO", (200,150),
+                cv2.FONT_HERSHEY_SIMPLEX, 1,
+                (255,0,0), 3)pip install opencv-python mediapipe pygame numpy
